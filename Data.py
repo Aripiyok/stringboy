@@ -15,7 +15,7 @@ class Data:
 **__Masih membaca?__**
 **__Anda dapat menggunakan saya untuk menghasilkan sesi pyrogram dan string telethon.Gunakan tombol di bawah ini untuk mempelajari lebih lanjut!__**
 
-By @fl0werboy
+**__By__** @fl0werboy
     """
 
     # Home Button
