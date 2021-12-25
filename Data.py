@@ -6,7 +6,7 @@ class Data:
     START = """
 Hey {}
 
-Selamat Datang di {}
+**__Selamat Datang di__** {}
 
 Jika Anda tidak mempercayai bot ini !!
 1) Berhenti membaca pesan ini
@@ -30,13 +30,13 @@ By @fl0werboy
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("⚡ Start Generating Session ", callback_data="generate")],
+        [InlineKeyboardButton("⚡ Start Generating Session ⚡ ", callback_data="generate")],
         [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/fl0werboy")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("✨ About ✨", callback_data="about")
         ],
-        [InlineKeyboardButton("✅More Amazing bots", url="https://t.me/fl0werboy")],
+        [InlineKeyboardButton("✅ More Amazing bots", url="https://t.me/fl0werboy")],
     ]
 
     # Help Message
