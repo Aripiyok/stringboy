@@ -19,7 +19,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"wajib join [Channel]({link}) lalu start kembali !",
+                    f"Wajib join [Channel]({link}) lalu start kembali !",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("✨ Join Channel ✨", url=link)]
