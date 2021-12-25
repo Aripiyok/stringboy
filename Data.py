@@ -4,16 +4,16 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+**__Hey__** {}
 
 **__Selamat Datang di__** {}
 
-Jika Anda tidak mempercayai bot ini !!
-1) Berhenti membaca pesan ini
-2) Hapus obrolan ini
+**__Jika Anda tidak mempercayai bot ini !!__**
+**__1) Berhenti membaca pesan ini__**
+**__2) Hapus obrolan ini__**
 
-Masih membaca?
-Anda dapat menggunakan saya untuk menghasilkan sesi pyrogram dan string telethon.Gunakan tombol di bawah ini untuk mempelajari lebih lanjut!
+**__Masih membaca?__**
+**__Anda dapat menggunakan saya untuk menghasilkan sesi pyrogram dan string telethon.Gunakan tombol di bawah ini untuk mempelajari lebih lanjut!__**
 
 By @fl0werboy
     """
