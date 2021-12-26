@@ -109,13 +109,13 @@ async def generate_session(bot, msg, telethon=False):
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = "**{} STRING SESSION** \n\n`{}` \n\nGenerat by @stringboybot".format("TELETHON" if telethon else "PYROGRAM", string_session)
+    text = "**{} STRING SESSION** \n\n`{}` \n\n**__Generat by__** @stringboybot".format("TELETHON" if telethon else "PYROGRAM", string_session)
     try:
         await client.send_message("me", text)
     except KeyError:
         pass
     await client.disconnect()
-    await phone_code_msg.reply("✅**__Successfully generated {} string session Please check your saved messages!__** \n\nBy @Stringboybot".format("telethon" if telethon else "pyrogram"))
+    await phone_code_msg.reply("✅**__Successfully generated {} string session Please check your saved messages!__** \n\n**__By__** @Stringboybot".format("telethon" if telethon else "pyrogram"))
 
 
 async def cancelled(msg):
