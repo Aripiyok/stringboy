@@ -5,7 +5,6 @@ class Data:
     # Start Message
     START = """
 **__Hey__** {}
-
 **__Selamat Datang di__** {}
 
 **__Jika Anda tidak mempercayai bot ini !!__**
@@ -30,8 +29,7 @@ class Data:
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("⚡ sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ ⚡ ", callback_data="generate")],
-        [InlineKeyboardButton("✨ ʙᴏᴛ sᴛᴀᴛᴜs ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛs ✨", url="https://t.me/fl0werboy")],
+        [InlineKeyboardButton("⚡ sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ ", callback_data="generate")]
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ❔", callback_data="help"),
             InlineKeyboardButton("✨ ᴀʙᴏᴜᴛ ✨", callback_data="about")
@@ -55,5 +53,5 @@ class Data:
     ABOUT = """
 **About This Bot** 
 
-A telegram bot to generate pyrogram and telethon string session by @fl0werboy
+**__A telegram bot to generate pyrogram and telethon string session by__** @fl0werboy
     """
