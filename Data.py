@@ -20,23 +20,23 @@ class Data:
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("⚡ Start Generating Session ", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Return Home ", callback_data="home")]
+        [InlineKeyboardButton("⚡ sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ ", callback_data="generate")],
+        [InlineKeyboardButton(text="🏠 ʀᴇᴛᴜʀɴ ʜᴏᴍᴇ ", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("⚡ Start Generating Session ", callback_data="generate")]
+        [InlineKeyboardButton("⚡ sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ ", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("⚡ Start Generating Session ⚡ ", callback_data="generate")],
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/fl0werboy")],
+        [InlineKeyboardButton("⚡ sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ ⚡ ", callback_data="generate")],
+        [InlineKeyboardButton("✨ ʙᴏᴛ sᴛᴀᴛᴜs ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛs ✨", url="https://t.me/fl0werboy")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("✨ About ✨", callback_data="about")
+            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ❔", callback_data="help"),
+            InlineKeyboardButton("✨ ᴀʙᴏᴜᴛ ✨", callback_data="about")
         ],
-        [InlineKeyboardButton("✅ More Amazing bots", url="https://t.me/fl0werboy")],
+        [InlineKeyboardButton("✅ ᴍᴏʀᴇ ᴀᴍᴀᴢɪɴɢ ʙᴏᴛs", url="https://t.me/SharingUserbot")],
     ]
 
     # Help Message
