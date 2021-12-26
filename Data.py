@@ -29,7 +29,7 @@ class Data:
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("⚡ sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ ", callback_data="generate")]
+        [InlineKeyboardButton("⚡ sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ ", callback_data="generate")],
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ❔", callback_data="help"),
             InlineKeyboardButton("✨ ᴀʙᴏᴜᴛ ✨", callback_data="about")
